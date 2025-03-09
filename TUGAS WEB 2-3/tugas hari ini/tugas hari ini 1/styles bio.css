@@ -1,0 +1,45 @@
+.bioo {
+    background-image: url(background\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: fit-content;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+.bio2 {
+    max-width: 100%;
+    width: fit-content;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+}
+.text {
+    background-color: darkgray;
+    margin-left: -100px;
+    margin-right: 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+body {
+    background-color: aliceblue;
+    background-image: url(background\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    font-family: "chakra petch";
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}

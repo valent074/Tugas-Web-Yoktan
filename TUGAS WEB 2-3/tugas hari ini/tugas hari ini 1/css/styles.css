@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.jumbotron {
+    background-color: rgb(16, 115, 148);
+    padding: 10px;
+    text-align: center;
+}
+nav{
+    background-color: rgb(83, 127, 179);
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+    font-weight: 800;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+}
+nav ul li a:hover {
+    background-color: rgb(71, 86, 136);
+    padding: 0.75em;
+}
+.box-pink {
+    margin: 140px;
+    background-color:rgb(253, 183, 234);
+    padding: 15px;
+    border-radius: 10px;
+    border-style: initial;
+    box-shadow: 5px 5px 5px rgba(228, 52, 8, 0.2);
+}
+.box-yellow img {
+    border-radius: 15px;
+}
+.box-yellow {
+    margin: 15px;
+    background-color:rgb(255, 239, 200);
+    padding: 15px;
+    border-radius: 10px;
+    border-style: initial;
+    box-shadow: 5px 5px 5px rgba(228, 52, 8, 0.2);
+}

@@ -1,0 +1,55 @@
+/* Golden Ratio */
+:root {
+    --primary-color: #2C3E50;
+    --secondary-color: #ECF0F1;
+    --golden-ratio: 1.618;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar */
+.sidebar {
+    background: var(--primary-color);
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+/* Foto Profil */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Name Styling */
+.name {
+    font-size: calc(16px * var(--golden-ratio));
+}
+
+/* Content */
+.content {
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 8px 9px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}

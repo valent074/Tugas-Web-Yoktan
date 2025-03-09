@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pertemuan5 Yoktan</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+        .hexagon {
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        }
+      </style>
+</head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto p-8">
+      <div
+        class="bg-blue-600 text-white text-center py-20 rounded-lg shadow-lg">
+        <h1 class="text-5xl font-bold mb-4">Selamat Datang di diary Yoktan</h1>
+
+      </div>
+    </div>
+    <h1 class="text-4xl text-center py-10 shadow-lg">PAP Random & my favorit img</h1>
+    <div class="container mx-auto">
+        <div class="grid grid-cols-3 gap-4">
+          <img src="foto 6.jpg" class="col-span-2 row-span-2 w-full h-full object-cover rounded-lg shadow-lg" alt="Foto Besar">
+          <img src="foto 2.jpg" class="w-full h-full object-cover rounded-lg shadow-lg" alt="Foto 1">
+          <img src="foto 3.jpg" class="w-full h-full object-cover rounded-lg shadow-lg" alt="Foto 2">
+          <img src="foto 4.jpg" class="w-full h-full object-cover rounded-lg shadow-lg" alt="Foto 3">
+          <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="foto 5.jpg" class="w-full h-full object-cover rounded-lg shadow-lg" alt="Foto 4">
+          <img src="foto 1.jpg" class="w-full h-full object-cover rounded-lg shadow-lg" alt="Foto 5">
+        </div>
+      
+    </div>
+      <h1 class="text-4xl text-center py-10 ">PHOTOS IN COLLAGE</h1>
+      <div class="columns-2 md:columns-3 lg:columns-4 grid grid-cols-3">
+        <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+            <a href="#">
+              <img class="rounded-lg" src="foto 11.jpg" alt="image description">
+            </a>
+            <figcaption class="absolute px-4 text-lg text-white bottom-6">
+                <p>MIROR SELFI WITH KEVIN AT THE MALL</p>
+            </figcaption>
+          </figure>
+<img class="rounded-full w-96 h-96" src="foto 7.jpg" alt="image description">
+<img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="foto 8.jpg" alt="image description">
+<img class="h-auto max-w-lg transition-all duration-300 rounded-lg blur-xs hover:blur-none" src="foto 9.jpg" alt="image description">
+<img class="h-auto max-w-lg h-60 object-cover rounded-lg [clip-path:polygon(50%_0%,_100%_50%,_50%_100%,_0%_50%)]" src="foto 10.jpg"/>
+  <div class="flex flex-wrap justify-center">
+    <div class="hexagon">
+        <img src="foto 12.jpg" alt="Foto 1">
+    </div>
+    </div>
+    </div>
+  </body>
+</html>
